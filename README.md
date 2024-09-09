@@ -58,5 +58,5 @@ Through this project, I strengthened my skills in HTML, CSS, and responsive desi
 
 ## Acknowledgments
 
-https://www.markdownguide.org/getting-started/
-https://medium.com/swlh/a-beginners-guide-to-gulp-4097f8f8f919
+https://www.markdownguide.org/getting-started/<br>
+https://medium.com/swlh/a-beginners-guide-to-gulp-4097f8f8f919<br>
