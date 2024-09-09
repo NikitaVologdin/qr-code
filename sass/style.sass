@@ -1,0 +1,85 @@
+// @import 'https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap'
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+// .outfit-<uniquifier> {
+//   font-family: "Outfit", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+// }
+
+$mobile: 375px
+$desktop: 1440px
+
+$white: hsl(0, 0%, 100%)
+$slate300: hsl(212, 45%, 89%)
+$slate500: hsl(216, 15%, 48%)
+$slate900: hsl(218, 44%, 22%)
+
+
+$headingSize: 22px
+$paragraphSize: 15px
+$weight1: 400
+$wheight2: 700
+
+html
+    height: 100%
+
+body
+    height: 100%
+    font-family: "Outfit", sans-serif
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: space-between
+    background-color: $slate300
+    padding-bottom: 10px 
+
+main
+    flex-grow: 1
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+.container
+    padding: 16px 16px 40px
+    max-width: 320px
+    max-height: 499px
+    background-color: $white
+    border-radius: 20px
+
+    img
+        border-radius: 10px
+    
+    article
+        margin-top: 21px
+        display: flex
+        flex-direction: column
+        gap: 16px
+        text-align: center
+
+        h1
+            color: $slate900
+            font-size: $headingSize
+        p
+            color: $slate500
+            font-size: $paragraphSize
+
+
+aside
+    flex-shrink: 2
+    text-align: center
+
+
+@media screen and (max-width: 768px)
+  aside 
+    font-size: 10px
+  body
+    padding: 0 27.5px 15px
+
+
+
+
