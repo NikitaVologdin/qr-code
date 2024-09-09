@@ -98,6 +98,8 @@ main {
 
 aside {
   flex-shrink: 2;
+}
+aside h1 {
   text-align: center;
 }
 
